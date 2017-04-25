@@ -14,7 +14,7 @@
 #include <UserEnv.h>
 #pragma comment(lib, "UserEnv.lib")
 
-#define  __WINTRUSTSERVICE_LOG__
+//#define  __WINTRUSTSERVICE_LOG__
 #define  SERVICE_NAME  _T("WinTrustService")
 #define  WRITECERTS_NAME _T("\\WriteCert.exe")
 #define SULOONGNAME "\\suloong_sm.exe"

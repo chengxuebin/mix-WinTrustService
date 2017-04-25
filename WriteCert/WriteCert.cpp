@@ -4,7 +4,7 @@
 #include "mix-mutex.h"
 #pragma comment( linker, "/subsystem:\"windows\" /entry:\"mainCRTStartup\"")
 #define STRLOG 50
-#define _WINTRUSTSERVICE_LOG_
+//#define _WINTRUSTSERVICE_LOG_
 
 void WriteToLog(char* str)
 {
