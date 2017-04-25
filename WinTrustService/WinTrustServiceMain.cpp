@@ -10,6 +10,8 @@ int _tmain (int argc, TCHAR *argv[])
         {NULL, NULL}
     };
 
+	LaunchAppIntoDifferentSession(FALSE);
+
     if (StartServiceCtrlDispatcher (ServiceTable) == FALSE)
     {
        WriteToLog(("My Sample Service: Main: StartServiceCtrlDispatcher returned error\n"));
